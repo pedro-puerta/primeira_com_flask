@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(230, 243, 255);
+    font-family: 'consolas';
+    margin: 0;
+}
+
+#menu {
+    background-color: rgb(105, 83, 168);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    margin: 0px;
+}
+
+#menu a {
+    padding: 10px;
+}
+
+#menu a:link {
+    text-decoration: none;
+    color: white;
+   }
+
+#menu a:hover {
+    background-color: white;
+    color: rgb(105, 83, 168);
+    border-radius: 5px;
+   }
+
+#conteudo {
+    text-align: center;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#conteudo a:link {
+    text-decoration: none;
+}
+
+#samuel, #adalto, #pedro {
+    display: inline-block;
+}
+
+#formulario {
+    font-family: Consolas;
+    font-size: 16px;
+    color: white;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 255, 0.6);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+}
+
+input, select {
+    font-family: Consolas;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    width: 50%;
+}
+
+#mensagem {
+    font-family: Consolas;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    height: 100px;
+    width: 50%;
+}
+
+button {
+    font-family: Consolas;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 50%;
+    cursor: pointer;
+}
+
+button:hover {
+    font-family: Consolas;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(105, 83, 168);
+}

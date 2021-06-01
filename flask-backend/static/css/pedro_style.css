@@ -1,0 +1,61 @@
+   html { 
+    font-size: 100%; 
+    overflow-y: scroll; 
+    -webkit-text-size-adjust: 100%; 
+    -ms-text-size-adjust: 100%; 
+}
+   
+   body { 
+    margin: 0; 
+    font-size: 0.8em; 
+    line-height: 1.4; 
+    font-family: sans-serif; 
+    color: #222;
+}
+
+.content {
+    background-color: rgb(226, 239, 255);
+}
+
+   nav ul, nav ol { 
+    list-style: none; 
+    list-style-image: none; 
+    margin: 0; 
+    padding: 0; 
+}
+
+   table { 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+}
+
+   td { 
+    vertical-align: top; 
+}
+
+   .container {
+       width: 80%;
+       max-width: 600px;
+       margin: 0 auto;	
+   }
+
+   table{
+       width: 100%;
+   }
+
+   thead{
+       font-weight: bold;
+   }
+   
+   .project > .title {
+       margin-bottom: 0px;
+   }
+   
+   .project > .meta {
+       font-size: 0.8em;
+   }
+   
+   .project > .meta > .date {
+       float: right;
+   
+   }

@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block adalto %}
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/adalto_style.css') }}">
+	<title>Currículo do Adalto</title>
+</head>
+<body>
+	<h1>Currículo</h1>
+	
+	<div class="secao">
+		<h2>Dados Pessoais</h2>			
+		<div id="Adalto" class="vcard">
+			<span class="given-name">Adalto</span>
+			<span class="additional-name">de</span>
+			<span class="additional-name">Almeida</span>
+			<span class="additional-name">Linhares</span>
+			<span class="additional-name">Santos</span>
+
+			<a class="email">adaltospjr@gmail.com</a>
+			
+			<div class="adr">
+				<span class="locality">São Paulo</span>
+				<span class="region">Cotia</span>
+			</div>
+		</div>
+	</div>
+
+	<div class="secao">
+		<h2>Formação</h2>
+		
+		<p><label>Instituição</label>Faculdade Impacta</p>
+		<p><label>Grau de formação</label>Graduação</p>
+		<p><label>Nome do curso</label>Sistemas de Informação</p>
+	</div>
+
+	<div class="secao">
+		<h2>Experiência profissional</h2>
+		
+		<p><label>Empresa</label>Wurth do Brasil Peças de Fixação Ltda. - 04/2020 até o momento - 1 ano</p>
+		<p><label>Empresa</label>Staples Brasil Com. Materiais De Escritório Ltda. - 12/2016 a 05/2018 - 1 ano e 5 meses</p>
+		<p><label>Empresa</label>HTI Consultoria e Tecnologia - 04/2019 a 05/2019 - 1 mês</p>
+	</div>
+		
+</body>
+{% endblock %}

@@ -1,0 +1,20 @@
+#dados, #titulo_form_acad, #titulo_exp_pro, #titulo_cursos_ext, #titulo_idiomas {
+    text-align: center;
+}
+
+#dados, #obj_qua, #form_acad, #exp_pro, #cursos_ext, #idiomas {
+    font-family: Calibri;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#titulo_form_acad, #titulo_exp_pro, #titulo_cursos_ext, #titulo_idiomas {
+    padding: 5px;
+    border: 1px solid;
+}
+
+th {
+    text-align: left;
+    width: 200px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div id="menu">
+        <a href="{{ url_for('pagina_principal') }}">Página principal</a>
+        <a href="{{ url_for('sobre') }}">Sobre</a>
+        <a href="{{ url_for('contato') }}">Contato</a>
+    </div>
+    
+    {% block pagina_principal %}
+    {% endblock %}
+
+    {% block sobre %}
+    {% endblock %}
+    
+    {% block contato %}
+    {% endblock %}
+
+    {% block samuel %}
+    {% endblock %}
+
+    {% block adalto %}
+    {% endblock %}
+
+    {% block pedro %}
+    {% endblock %}
+
+</body>
+</html>

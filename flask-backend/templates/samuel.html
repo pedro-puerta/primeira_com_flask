@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block samuel %}
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/samuel_style.css') }}">
+    <title>Currículo do Samuel</title>
+</head>
+
+<div id="dados">
+    <h1>Samuel Bezerra Bernardo</h1>
+
+    <p>
+        <label for="idade">Idade: 25 anos</label><br>
+        <label for="endereco">Bairro: Itaim Paulista – São Paulo – SP</label><br>
+        <label for="telefone"></label> Telefone: (11) 4277-2919 – (11) 95485-7558</label><br>
+        <label for="email">E-mail: samuca_bernardo@outlook.com</label><br>
+    </p>
+</div>
+
+<div id="obj_qua">
+    <p>
+        <strong>Objetivo – </strong>Desenvolvedor de Software
+    </p>
+
+    <p>
+        <strong>Qualificações – </strong>Profissional com aproximadamente sete anos de carreira na TI, atuei no cargo de Auxiliar de Suporte Técnico onde obtive grande aprendizado em atendimento a funcionários e clientes. Atualmente estudo Sistemas de Informação com o propósito de atuar como Desenvolvedor de Software. Sou uma pessoa dinâmica, esforçada, organizada e de fácil relacionamento, trabalho bem em equipe e no que for preciso, auxilio os colegas de trabalho a atingirem seus objetivos e metas.
+    </p>
+</div>
+
+<div id="form_acad">
+    <h3 id="titulo_form_acad">Formação Acadêmica</h3>
+
+    <p><strong>Escola Estadual Wilson Rachid</strong><br>
+    Ensino Médio Completo – 2012</p>
+
+    <p><strong>Instituição Microcamp Penha</strong><br>
+    INFORMÁTICA<br>
+    Curso Completo – 2012</p>
+
+    <p><strong>Etec Professor Aprígio Gonzaga (Extensão Escola Estadual Maria de Carvalho Senne)</strong><br>
+    TÉCNICO EM INFORMÁTICA<br>
+    Curso Técnico Completo – junho/2017</p>
+
+    <p><strong>Faculdade Impacta de Tecnologia (FIT)</strong><br>
+    SISTEMAS DE INFORMAÇÃO<br>
+    Bacharelado – Início: setembro/2020 – Conclusão/Previsão: junho/2024</p>
+</div>
+    
+<div id="exp_pro">
+    <h3 id="titulo_exp_pro">Experiência Profissional</h3>
+    <table class="tabela_exp_pro_1">
+        <tr>
+            <th>Empresa –</th>
+            <td>Microcamp Penha</td>
+        </tr>
+        <tr>
+            <th>Cargo –</th>
+            <td>Auxiliar de Informática</td>
+        </tr>
+        <tr>
+            <th>Período –</th>
+            <td>dezembro/2011 à junho/2012</td>
+        </tr>
+        <tr>
+            <th>Atividades Exercidas – </th>
+            <td>Auxílio no treinamento de aulas; Elaboração de textos, planilhas, apresentações em Power Point, entre outras.</td>
+        </tr>
+    </table>
+    <br>
+    <table class="tabela_exp_pro">
+        <tr>
+            <th>Empresa –</th>
+            <td>NBS Contabilidade SS LTDA</td>
+        </tr>
+        <tr>
+            <th>Cargo –</th>
+            <td>Auxiliar Pleno Informática</td>
+        </tr>
+        <tr>
+            <th>Período –</th>
+            <td>22/04/2013 à 31/03/2017</td>
+        </tr>
+        <tr>
+            <th>Atividades Exercidas – </th>
+            <td>Suporte Técnico Help Desk/Service Desk; Infraestrutura de Rede; Controle do Processo de Back-up.</td>
+        </tr>
+    </table>
+    <br>
+    <table class="tabela_exp_pro">
+        <tr>
+            <th>Empresa –</th>
+            <td>TECNOLOGIC SERVS DE INFORMATICA LTDA</td>
+        </tr>
+        <tr>
+            <th>Cargo –</th>
+            <td>Auxiliar de Suporte Técnico</td>
+        </tr>
+        <tr>
+            <th>Período –</th>
+            <td>17/06/2019 à 10/03/2021</td>
+        </tr>
+        <tr>
+            <th>Atividades Exercidas – </th>
+            <td>Suporte Técnico Help Desk/Service Desk; Infraestrutura de Rede.</td>
+        </tr>
+    </table>
+</div>
+
+<div id="cursos_ext">
+    <h3 id="titulo_cursos_ext">Cursos Extracurriculares</h3>
+
+    <p><strong>Senac Tatuapé</strong><br>
+    Palestra: Segurança da Informação (1h30) – 30 de julho de 2015</p>
+
+    <p><strong>Fundação Bradesco – Escola Virtual</strong><br>
+    Curso: Modelagem de Dados (35 horas) – 09 de junho de 2016</p>
+
+    <p><strong>Udemy</strong><br>
+    Curso: Web Design: Construa Sites com PHP, HTML, CSS e JavaScript (5,5 horas) – 08 de abril de 2019</p>
+</div>
+
+<div id="idiomas">
+    <h3 id="titulo_idiomas">Idiomas</h3>
+    <strong>Espanhol – </strong>Basico<br>
+    <strong>Inglês – </strong>Básico
+
+{% endblock %}

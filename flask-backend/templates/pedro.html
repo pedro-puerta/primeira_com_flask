@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block pedro %}
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/pedro_style.css') }}">
+	<title>Currículo do Pedro</title>
+</head>
+<body>
+	<div class="container">
+	<header>
+		<h1 id="name">Pedro Silvério Puerta</h1>
+		<div id="designation">
+			<span class="title">Technician II, Help Desk</span>
+			<span class="organization">Netcracker Technology</span>
+		</div>
+		<div class="contact">
+			<div class="email">pedrosilveriopuerta@gmail.com</div>
+		</div>
+	</header>
+	<div class="content" role=main>
+		<section id="objective">
+			<h2 class="title">Objetivo</h2>
+			<div class="description">
+				<p>
+					Vaga de trabalho em desenvolvimento back-end.
+				</p>			
+			</div>
+		</section>
+		<section id="Education">
+			<h2 class="title">Educação</h2>
+			<div class="description">
+				<table>
+					<thead>
+						<td>Duração</td>
+						<td>Qualificação</td>
+						<td>Instituição</td>
+					</thead>
+					<tr>
+						<td>Jan/2017 - Dez/2017</td>
+						<td>Curso técnico de informática</td>
+						<td>ETEC São Paulo</td>
+					</tr>
+					<tr>
+						<td>Ago/2020 - Atualmente</td>
+						<td>Bacharel Sistemas de Informação</td>
+						<td>Faculdade Impacta</td>
+					</tr>
+				</table>
+			</div>
+		</section>
+		<section id="projects">
+			<h2 class="title">Experiência Profissional</h2>
+			<div class="description">
+				<section class="project">
+					<h3 class="title">Suporte técnico Nível 1</h3>
+					<div class="meta">
+						<span class="field">ICONA TI</span> <span class="date">Jul / 2020 - Dez / 2020</span>
+					</div>
+					<p class="description">Responsável pelo Nível 1 do suporte técnico de uma empresa de infraestrtura em redes de computadores.</p>
+				</section>
+				<section class="project">
+					<h3 class="title">Suporte técnico Nível 2</h3>
+					<div class="meta">
+						<span class="field">Netcracker Technology</span> <span class="date">Jan 2021 - Atualmente</span>
+					</div>
+					<p class="description">Analista Nível 2 de suporte técnico para um sistema contratado pela operadora VIVO.</p>
+				</section>
+            </div>
+		</section>
+	</div>
+	</div>
+</body>
+{% endblock %}
